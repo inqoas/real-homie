@@ -1,0 +1,25 @@
+package com.userinfo.controller;
+
+import java.io.IOException;
+import java.lang.reflect.Member;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.google.gson.Gson;
+import com.userinfo.vo.UserInfo;
+@WebServlet("/login")
+public class MemberLoginController extends HttpServlet {
+	private static final long serialVersionUID = -3245570107853379659L;
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		Gson gson = new Gson();
+		UserInfo userInfo = gson.fromJson(req.getReader(), UserInfo.class);
+		System.out.println(userInfo.getUser_account());
+		System.out.println(userInfo.getUser_password());
+		
+	}
+}

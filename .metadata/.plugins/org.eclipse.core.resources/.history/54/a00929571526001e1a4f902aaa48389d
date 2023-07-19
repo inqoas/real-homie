@@ -1,0 +1,12 @@
+package com.orderproduct.dao;
+
+import java.util.List;
+
+import com.orderproduct.vo.OrderProduct;
+
+public interface OrderProductDao {
+	public void insert(OrderProduct orderproduct);
+	public void update(OrderProduct orderproduct);
+	public List<OrderProduct> getAll();
+	public List<OrderProduct> findByUserId(Integer user_id);
+}
