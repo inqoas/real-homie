@@ -8,7 +8,7 @@ import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
 import jakarta.persistence.PersistenceContext;
-import tw.idv.tibame.tha102.orderproduct.vo.OrderProduct;
+import tw.idv.tibame.tha102.web.orderproduct.vo.OrderProduct;
 
 @Repository
 public class OrderProductDaoImpl implements OrderProductDao {

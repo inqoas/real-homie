@@ -2,7 +2,9 @@ package tw.idv.tibame.tha102.web.userinfo.dao;
 
 import java.util.List;
 
-import tw.idv.tibame.tha102.userinfo.vo.UserInfo;
+import tw.idv.tibame.tha102.web.userinfo.vo.UserInfo;
+
+
 
 public interface UserInfoDao {
 	public void insert(UserInfo users);

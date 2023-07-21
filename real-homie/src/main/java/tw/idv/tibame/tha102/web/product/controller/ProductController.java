@@ -10,9 +10,9 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import tw.idv.tibame.tha102.product.service.ProductService;
-import tw.idv.tibame.tha102.product.service.ProductServiceImpl;
-import tw.idv.tibame.tha102.product.vo.Product;
+import tw.idv.tibame.tha102.web.product.service.ProductService;
+import tw.idv.tibame.tha102.web.product.service.ProductServiceImpl;
+import tw.idv.tibame.tha102.web.product.vo.Product;
 
 @WebServlet("/products")
 public class ProductController extends HttpServlet {

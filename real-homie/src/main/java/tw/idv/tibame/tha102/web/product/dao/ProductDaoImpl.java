@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import tw.idv.tibame.tha102.product.vo.Product;
+import tw.idv.tibame.tha102.web.product.vo.Product;
 
 public class ProductDaoImpl implements ProductDao{
 	

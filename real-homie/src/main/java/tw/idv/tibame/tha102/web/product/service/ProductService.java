@@ -2,7 +2,8 @@ package tw.idv.tibame.tha102.web.product.service;
 
 import java.util.List;
 
-import tw.idv.tibame.tha102.product.vo.Product;
+import tw.idv.tibame.tha102.web.product.vo.Product;
+
 
 public interface ProductService {
 	public List<Product> findAll();

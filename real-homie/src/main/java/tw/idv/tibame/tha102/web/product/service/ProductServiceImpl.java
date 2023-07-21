@@ -2,9 +2,11 @@ package tw.idv.tibame.tha102.web.product.service;
 
 import java.util.List;
 
-import tw.idv.tibame.tha102.product.dao.ProductDao;
-import tw.idv.tibame.tha102.product.dao.ProductDaoImpl;
-import tw.idv.tibame.tha102.product.vo.Product;
+import tw.idv.tibame.tha102.web.product.dao.ProductDao;
+import tw.idv.tibame.tha102.web.product.dao.ProductDaoImpl;
+import tw.idv.tibame.tha102.web.product.vo.Product;
+
+
 
 public class ProductServiceImpl implements ProductService{
 	

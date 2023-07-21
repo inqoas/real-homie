@@ -2,7 +2,7 @@ package tw.idv.tibame.tha102.web.orderproduct.dao;
 
 import java.util.List;
 
-import tw.idv.tibame.tha102.orderproduct.vo.OrderProduct;
+import tw.idv.tibame.tha102.web.orderproduct.vo.OrderProduct;
 
 public interface OrderProductDao {
 	public void insert(OrderProduct orderproduct);

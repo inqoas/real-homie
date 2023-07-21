@@ -11,7 +11,9 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import tw.idv.tibame.tha102.userinfo.vo.UserInfo;
+import tw.idv.tibame.tha102.web.userinfo.vo.UserInfo;
+
+
 
 public class UserInfoDaoImpl implements UserInfoDao{
 	
