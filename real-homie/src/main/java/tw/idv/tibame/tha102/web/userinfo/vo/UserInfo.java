@@ -19,8 +19,15 @@ public class UserInfo implements java.io.Serializable {
     private Integer user_status;
     private Integer garbage_coin;
     private Integer seller_identity;
+    private String error_message;
     
-    public Integer getUser_id() {
+    public String getError_message() {
+		return error_message;
+	}
+	public void setError_message(String error_message) {
+		this.error_message = error_message;
+	}
+	public Integer getUser_id() {
 		return user_id;
 	}
 	public void setUser_id(Integer user_id) {

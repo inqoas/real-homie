@@ -1,0 +1,12 @@
+package tw.idv.tibame.tha102.web.seller.vo;
+
+public class Seller {
+	private Integer seller_id;
+    private Integer user_id;
+    private byte[] seller_pcrc;
+    private Integer bank_code;
+    private String bank_account;
+    private String bank_holder_name;
+    private Integer total_review_count;
+    private Integer total_review_stars;
+}

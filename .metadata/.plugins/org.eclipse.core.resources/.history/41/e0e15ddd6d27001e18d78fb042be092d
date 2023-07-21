@@ -1,0 +1,7 @@
+package tw.idv.tibame.tha102.web.productCollection.vo;
+
+import java.io.Serializable;
+
+public class ProductCollection implements Serializable{
+
+}

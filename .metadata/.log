@@ -3456,3 +3456,253 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:37:13.448
 !MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:39:13.474
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:39:14.767
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2023-07-21 09:46:30.370
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.ui.internal.dialogs.ViewsPreferencePage.performOk(ViewsPreferencePage.java:263)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:906)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:890)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:234)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:56:57.449
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-21 09:58:03.722
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:58:23.434
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 09:58:38.238
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:04:18.212
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:07:16.729
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:07:49.434
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:08:00.070
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:08:22.710
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:15:05.759
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:15:22.713
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:15:55.341
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:16:20.149
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:16:24.968
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:17:17.532
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:17:57.574
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:18:03.505
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:18:33.770
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:18:42.646
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:19:13.761
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:19:33.243
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:19:41.017
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:20:02.514
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:20:28.108
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:20:35.357
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:20:56.798
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:21:18.896
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:21:25.500
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:21:50.183
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:22:16.941
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:22:27.721
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:22:47.051
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:23:07.279
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:23:14.647
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:23:37.945
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:24:59.838
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:25:06.454
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:25:32.510
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:25:50.812
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:25:56.145
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:26:15.786
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:26:35.141
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:26:40.469
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:27:00.415
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:27:23.581
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:27:32.005
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:27:53.188
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:28:12.960
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:28:18.120
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:28:33.327
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:28:50.909
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:28:55.930
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:29:17.332
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:31:06.409
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:31:40.171
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:31:57.902
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:35:32.708
+!MESSAGE Classpath changed for project: real-homie
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-21 10:35:44.733
+!MESSAGE Classpath changed for project: real-homie

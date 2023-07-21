@@ -2,11 +2,11 @@ package tw.idv.tibame.tha102.web.userinfo.service;
 
 import java.lang.reflect.Member;
 
+import tw.idv.tibame.tha102.web.userinfo.vo.UserInfo;
+
 public interface MemberService {
 	//註冊
-	Member register(Member member);
+	Member register(UserInfo userInfo);
 	//登入
-	Member login(Member member);
-	//修改
-	Member edit(Member member);
+	Member login(UserInfo userInfo);
 }

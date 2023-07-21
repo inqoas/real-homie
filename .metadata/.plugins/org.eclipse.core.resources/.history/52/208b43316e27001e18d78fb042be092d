@@ -1,0 +1,7 @@
+package tw.idv.tibame.tha102.web.orderProductDetail.vo;
+
+import java.io.Serializable;
+
+public class OrderProductDetail implements Serializable{
+
+}

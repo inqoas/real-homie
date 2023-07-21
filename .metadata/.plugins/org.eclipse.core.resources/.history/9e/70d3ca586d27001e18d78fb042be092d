@@ -1,0 +1,7 @@
+package tw.idv.tibame.tha102.web.violation.vo;
+
+import java.io.Serializable;
+
+public class Violation implements Serializable{
+
+}

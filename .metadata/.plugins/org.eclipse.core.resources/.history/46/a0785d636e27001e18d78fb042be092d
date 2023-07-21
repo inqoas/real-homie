@@ -1,0 +1,7 @@
+package tw.idv.tibame.tha102.web.guideline.vo;
+
+import java.io.Serializable;
+
+public class Guideline implements Serializable{
+
+}

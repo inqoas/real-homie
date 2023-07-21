@@ -1,0 +1,7 @@
+package tw.idv.tibame.tha102.web.advertise.vo;
+
+import java.io.Serializable;
+
+public class advertise implements Serializable{
+	
+}
