@@ -478,3 +478,29 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 2023-07-19 18:11:50.633 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
 2023-07-19 18:11:50.712 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/real-homie'
 2023-07-19 18:11:50.726 [INFO] [restartedMain] [57] Started RealHomieApplication in 6.751 seconds (process running for 7.966)
+2023-07-21 11:27:42.931 [INFO] [restartedMain] [51] Starting RealHomieApplication using Java 17.0.6 with PID 80926 (/Users/kevinyang/homie-workspace/real-homie/real-homie/target/classes started by kevinyang in /Users/kevinyang/homie-workspace/real-homie/real-homie)
+2023-07-21 11:27:42.932 [DEBUG] [restartedMain] [52] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-21 11:27:42.932 [INFO] [restartedMain] [634] No active profile set, falling back to 1 default profile: "default"
+2023-07-21 11:27:43.013 [INFO] [restartedMain] [138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 11:27:43.017 [INFO] [restartedMain] [208] Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-21 11:27:43.082 [INFO] [restartedMain] [108] Tomcat initialized with port(s): 8080 (http)
+2023-07-21 11:27:43.082 [INFO] [restartedMain] [173] Starting service [Tomcat]
+2023-07-21 11:27:43.082 [INFO] [restartedMain] [173] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-21 11:27:43.120 [INFO] [restartedMain] [173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-07-21 11:27:43.122 [INFO] [restartedMain] [173] Initializing Spring embedded WebApplicationContext
+2023-07-21 11:27:43.122 [INFO] [restartedMain] [291] Root WebApplicationContext: initialization completed in 189 ms
+2023-07-21 11:27:43.147 [INFO] [restartedMain] [110] HikariPool-3 - Starting...
+2023-07-21 11:27:43.159 [INFO] [restartedMain] [565] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@519bce9
+2023-07-21 11:27:43.159 [INFO] [restartedMain] [123] HikariPool-3 - Start completed.
+2023-07-21 11:27:43.160 [INFO] [restartedMain] [31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 11:27:43.164 [INFO] [restartedMain] [53] HHH000021: Bytecode provider name : bytebuddy
+2023-07-21 11:27:43.164 [INFO] [restartedMain] [87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-21 11:27:43.170 [INFO] [restartedMain] [53] HHH000021: Bytecode provider name : bytebuddy
+2023-07-21 11:27:43.181 [INFO] [restartedMain] [51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 11:27:43.182 [INFO] [restartedMain] [437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 11:27:43.197 [WARN] [restartedMain] [231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 11:27:43.219 [INFO] [restartedMain] [57] Adding welcome page: class path resource [static/index.html]
+2023-07-21 11:27:43.253 [INFO] [restartedMain] [59] LiveReload server is running on port 35729
+2023-07-21 11:27:43.260 [INFO] [restartedMain] [220] Tomcat started on port(s): 8080 (http) with context path '/real-homie'
+2023-07-21 11:27:43.262 [INFO] [restartedMain] [57] Started RealHomieApplication in 0.349 seconds (process running for 209.288)
+2023-07-21 11:27:43.262 [INFO] [restartedMain] [63] Condition evaluation unchanged
